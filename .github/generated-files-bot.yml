@@ -1,0 +1,6 @@
+generatedFiles:
+  - path: '.github/**'
+    message: '`.github/**` should not be updated by outside contributors'
+ignoreAuthors:
+  - 'DmitryDodzin'
+  - 'renovate[bot]'

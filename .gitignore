@@ -1,0 +1,11 @@
+# Node Modules
+node_modules/
+**/*.js
+**/*.d.ts
+.idea/
+.eslintcache
+yarn-error.log
+
+# Coverage
+coverage/
+reports/

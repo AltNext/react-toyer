@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "allowJs": true,
+    "declaration": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "preserveSymlinks": true,
+    "resolveJsonModule": true
+  },
+  "exclude": ["**/*.spec.ts", "**/*.spec.tsx", "**/__tests__", "**/dist/**/*"],
+  "include": ["src/**/*", "index.ts"]
+}
