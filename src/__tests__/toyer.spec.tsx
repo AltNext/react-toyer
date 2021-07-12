@@ -1,11 +1,11 @@
-import { mount } from 'enzyme';
+import { render } from '@testing-library/react';
 
 import { Toyer } from '../toyer';
 
-describe('init', () => {
-  it('should work', () => {
-    const wrapper = mount(<Toyer />);
+describe('testing', () => {
+  it('test', () => {
+    const { container } = render(<Toyer />);
 
-    expect(wrapper).toBeDefined();
+    expect(container).toBeDefined();
   });
 });
