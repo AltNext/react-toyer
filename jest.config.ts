@@ -1,7 +1,6 @@
 const config = {
   preset: 'ts-jest',
-  testEnvironment: 'enzyme',
-  setupFilesAfterEnv: ['jest-enzyme'],
+  testEnvironment: 'jsdom',
   reporters: [
     'default',
     ['jest-junit', { suiteName: 'react-toyer-unit', outputDirectory: './reports', outputName: 'react-toyer.xml' }],
