@@ -2,8 +2,10 @@ import { mount } from 'enzyme';
 
 import { Toyer } from '../toyer';
 
-it('Test', () => {
-  const wrapper = mount(<Toyer />);
+describe('init', () => {
+  it('should work', () => {
+    const wrapper = mount(<Toyer />);
 
-  expect(wrapper).toExist();
+    expect(wrapper).toBeDefined();
+  });
 });
