@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "Altnext/iql"
+      "repo": "Altnext/react-toyer"
     }
   ],
   "commit": false,
