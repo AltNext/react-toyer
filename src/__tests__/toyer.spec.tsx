@@ -1,6 +1,7 @@
 import { render } from '@testing-library/react';
 
-import { Toyer, ToyerVideo } from '../toyer';
+import { Toyer } from '../toyer';
+import { ToyerVideo } from '../toyer-video';
 
 describe('init', () => {
   it('should work', () => {
