@@ -4,10 +4,12 @@ interface ISized {
 }
 
 export interface IToyerContext {
-  loaded: boolean;
-  options: {
-    size?: ISized;
-  };
+  canvas: ISized;
 }
 
 export interface IToyerProps extends ISized {}
+
+export interface IToyerVideoProps extends Partial<ISized> {
+  playing?: boolean;
+  src: string;
+}

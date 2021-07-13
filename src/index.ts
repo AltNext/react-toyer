@@ -1,1 +1,1 @@
-export { Toyer } from './toyer';
+export { Toyer, ToyerVideo } from './toyer';

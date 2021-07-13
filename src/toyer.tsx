@@ -1,25 +1,26 @@
-import type { FC } from 'react';
-import { createContext, useCallback, useState } from 'react';
+import type { FC, VFC } from 'react';
+import { createContext, /* useContext,*/ useRef } from 'react';
 
-import type { IToyerContext, IToyerProps } from './interfaces';
+import type { IToyerContext, IToyerProps, IToyerVideoProps } from './interfaces';
 
-export const ToyerContext = createContext<IToyerContext>({ loaded: false, options: {} });
+export const ToyerContext = createContext<IToyerContext>({ canvas: { height: 0, width: 0 } });
 
 export const Toyer: FC<IToyerProps> = ({ children, height, width }) => {
-  const [context, setContext] = useState<IToyerContext>({ loaded: false, options: { size: { height, width } } });
-  const setCanvasRef = useCallback(
-    (ref: HTMLCanvasElement | null): void => {
-      if (ref && !context.loaded) {
-        setContext((ctx) => ({ ...ctx, loaded: true }));
-      }
-    },
-    [context.loaded],
-  );
+  const contextRef = useRef<IToyerContext>({ canvas: { height, width } });
 
   return (
     <div style={{ height, width }}>
-      <canvas ref={setCanvasRef} height={height} width={width} />
-      <ToyerContext.Provider value={context}>{children}</ToyerContext.Provider>
+      <canvas height={height} width={width} />
+      <ToyerContext.Provider value={contextRef.current}>{children}</ToyerContext.Provider>
     </div>
   );
 };
+
+Toyer.displayName = 'Toyer';
+
+export const ToyerVideo: VFC<IToyerVideoProps> = () =>
+  /* const context = useContext(ToyerContext); */
+
+  null;
+
+ToyerVideo.displayName = 'ToyerVideo';
