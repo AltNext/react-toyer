@@ -1,5 +1,5 @@
 ---
-"react-toyer": patch
+"react-toyer": minor
 ---
 
 #### Api
