@@ -3,7 +3,12 @@ interface ISized {
   height: number;
 }
 
-export interface IVideoItem {
+interface IMovable {
+  top?: number;
+  left?: number;
+}
+
+export interface IVideoItem extends IMovable, ISized {
   index: number;
   playing: boolean;
   element: HTMLVideoElement;

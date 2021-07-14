@@ -1,9 +1,14 @@
 import type { IToyerContext, IVideoItem } from './interfaces';
 
 export const registerVideo = (context: IToyerContext, video: IVideoItem): (() => void) => {
-  video.element.addEventListener('loadedmetadata', () => {
+  if (video.element.readyState === 4) {
     context.videos[video.index] = video;
-  });
+  } else {
+    video.element.load();
+    video.element.addEventListener('loadedmetadata', () => {
+      context.videos[video.index] = video;
+    });
+  }
 
   return () => {
     if (context.videos[video.index]) {

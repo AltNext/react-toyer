@@ -38,7 +38,7 @@ export const Toyer: FC<IToyerProps> = ({ children, height, width }) => {
         }
 
         if (video.playing) {
-          ctx.drawImage(video.element, 0, 0, video.element.width, video.element.height);
+          ctx.drawImage(video.element, video.left ?? 0, video.top ?? 0, video.element.width, video.element.height);
         }
       }
 
