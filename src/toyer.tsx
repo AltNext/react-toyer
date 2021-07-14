@@ -2,6 +2,7 @@ import type { FC } from 'react';
 import { useEffect, useRef } from 'react';
 
 import { ToyerContext } from './toyer.context';
+import { getValue } from './toyer.helpers';
 import type { IToyerContext, IToyerProps } from './interfaces';
 
 export const Toyer: FC<IToyerProps> = ({ children, height, width }) => {
@@ -25,11 +26,13 @@ export const Toyer: FC<IToyerProps> = ({ children, height, width }) => {
         return;
       }
 
-      ctx.clearRect(0, 0, contextRef.current.canvas.width, contextRef.current.canvas.height);
+      ctx.clearRect(0, 0, getValue(contextRef.current.canvas.width), getValue(contextRef.current.canvas.height));
 
       for (const video of Object.values(contextRef.current.videos)) {
         if (video.playing && video.element.paused) {
-          video.element.play();
+          video.element.play().catch((error) => {
+            console.error('Error trying to initiate playback', error);
+          });
         }
 
         if (!video.playing && !video.element.paused) {
@@ -38,7 +41,13 @@ export const Toyer: FC<IToyerProps> = ({ children, height, width }) => {
         }
 
         if (video.playing) {
-          ctx.drawImage(video.element, video.left ?? 0, video.top ?? 0, video.element.width, video.element.height);
+          ctx.drawImage(
+            video.element,
+            getValue(video.left ?? 0),
+            getValue(video.top ?? 0),
+            getValue(video.width),
+            getValue(video.height),
+          );
         }
       }
 

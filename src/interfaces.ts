@@ -1,11 +1,13 @@
+export type ValueType<T> = T | { get(): T };
+
 interface ISized {
-  width: number;
-  height: number;
+  width: ValueType<number>;
+  height: ValueType<number>;
 }
 
 interface IMovable {
-  top?: number;
-  left?: number;
+  top?: ValueType<number>;
+  left?: ValueType<number>;
 }
 
 export interface IVideoItem extends IMovable, ISized {
@@ -20,7 +22,10 @@ export interface IToyerContext {
   videos: IVideoItem[];
 }
 
-export interface IToyerProps extends ISized {}
+export interface IToyerProps {
+  width: number;
+  height: number;
+}
 
 export interface IToyerVideoProps extends Partial<ISized & Omit<IVideoItem, 'element'>> {
   src: string;
