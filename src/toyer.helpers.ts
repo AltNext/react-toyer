@@ -1,7 +1,7 @@
 import type { IToyerContext, IVideoItem, ValueType } from './interfaces';
 
 export const registerVideo = (context: IToyerContext, video: IVideoItem): (() => void) => {
-  if (video.element.readyState === 4) {
+  if (video.element.readyState >= video.element.HAVE_ENOUGH_DATA) {
     context.videos[video.index] = video;
   } else {
     video.element.load();
