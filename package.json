@@ -30,7 +30,7 @@
     "prettier": "2.3.2"
   },
   "peerDependencies": {
-    "react": "*"
+    "react": ">=17"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.4.0",
