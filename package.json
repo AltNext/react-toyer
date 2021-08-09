@@ -35,8 +35,8 @@
   "devDependencies": {
     "@changesets/changelog-github": "0.4.0",
     "@changesets/cli": "2.16.0",
-    "@commitlint/cli": "12.1.4",
-    "@commitlint/config-conventional": "12.1.4",
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
     "@testing-library/jest-dom": "5.14.1",
     "@testing-library/react": "12.0.0",
     "@types/jest": "26.0.24",
