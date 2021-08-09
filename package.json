@@ -42,7 +42,7 @@
     "@types/jest": "26.0.24",
     "@types/react": "17.0.16",
     "canvas": "2.8.0",
-    "eslint-config-altnext": "1.1.7",
+    "eslint-config-altnext": "1.2.2",
     "husky": "7.0.1",
     "jest": "27.0.6",
     "jest-junit": "12.2.0",
