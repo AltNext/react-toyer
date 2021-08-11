@@ -6,7 +6,7 @@
 
 ### Variables
 
-- [displayName](toyervideo.md#displayname)
+- [displayName](ToyerVideo.md#displayname)
 
 ## Variables
 
