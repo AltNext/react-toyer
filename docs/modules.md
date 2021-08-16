@@ -6,8 +6,8 @@
 
 ### Namespaces
 
-- [Toyer](modules/toyer.md)
-- [ToyerVideo](modules/toyervideo.md)
+- [Toyer](modules/Toyer.md)
+- [ToyerVideo](modules/ToyerVideo.md)
 
 ### Variables
 
