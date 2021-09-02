@@ -44,7 +44,7 @@
     "canvas": "2.8.0",
     "eslint-config-altnext": "1.2.3",
     "husky": "7.0.2",
-    "jest": "27.0.6",
+    "jest": "27.1.0",
     "jest-junit": "12.2.0",
     "lint-staged": "11.1.2",
     "react": "17.0.2",
