@@ -27,7 +27,7 @@
     "type": "tsc --noEmit --noImplicitAny"
   },
   "resolutions": {
-    "prettier": "2.3.2"
+    "prettier": "2.4.0"
   },
   "peerDependencies": {
     "react": ">=17"
