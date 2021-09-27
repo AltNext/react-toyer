@@ -19,12 +19,12 @@
     "coverage": "jest --coverage",
     "deduplicate": "yarn-deduplicate -s fewer",
     "docs": "yarn typedoc --disableSources index.ts",
-    "lint": "eslint --ext .ts,.tsx . --cache",
+    "lint": "eslint . --cache",
     "prepare": "husky install",
     "prerelease": "yarn build",
     "release": "changeset publish",
     "test": "jest --ci",
-    "type": "tsc --noEmit --noImplicitAny"
+    "type": "tsc --noEmit"
   },
   "resolutions": {
     "prettier": "2.4.1"
@@ -43,7 +43,7 @@
     "@types/jest": "27.0.2",
     "@types/react": "17.0.24",
     "canvas": "2.8.0",
-    "eslint-config-altnext": "1.2.6",
+    "eslint-config-altnext": "2.0.0",
     "husky": "7.0.2",
     "jest": "27.2.2",
     "jest-junit": "12.3.0",

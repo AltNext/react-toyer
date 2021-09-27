@@ -34,7 +34,7 @@ export const ToyerVideo: VFC<IToyerVideoProps> = ({ index, src, playing, width, 
         width: width ?? context.canvas.width,
         height: height ?? context.canvas.height,
       }),
-    /* Its intentinal to keep out playing from deps here */
+    /* Its intentional to keep out playing from deps here */
     /* eslint-disable-next-line react-hooks/exhaustive-deps */
     [context, currentIndex, width, height, top, left],
   );
