@@ -19,12 +19,12 @@
     "coverage": "jest --coverage",
     "deduplicate": "yarn-deduplicate -s fewer",
     "docs": "yarn typedoc --disableSources index.ts",
-    "lint": "eslint --ext .ts,.tsx . --cache",
+    "lint": "eslint . --cache",
     "prepare": "husky install",
     "prerelease": "yarn build",
     "release": "changeset publish",
     "test": "jest --ci",
-    "type": "tsc --noEmit --noImplicitAny"
+    "type": "tsc --noEmit"
   },
   "resolutions": {
     "prettier": "2.4.1"

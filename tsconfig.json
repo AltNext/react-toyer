@@ -6,7 +6,7 @@
     "declaration": true,
     "strict": true,
     "jsx": "react-jsx",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
     "preserveSymlinks": true,
