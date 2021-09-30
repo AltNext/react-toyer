@@ -96,7 +96,7 @@
 
 - [#11](https://github.com/AltNext/react-toyer/pull/11) [`0140b45`](https://github.com/AltNext/react-toyer/commit/0140b45ebfe0aa6e3b894298289b189a54771ca3) Thanks [@DmitryDodzin](https://github.com/DmitryDodzin)! - #### Api
 
-  feat: create initial api for rendering several vidos on one canvas
+  feat: create initial api for rendering several videos on one canvas
 
   feat: FramerMotion's motionValue support for canvas internals (not canvas itself)
 
