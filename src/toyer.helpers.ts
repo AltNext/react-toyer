@@ -19,7 +19,7 @@ export const registerVideo = (context: IToyerContext, video: IVideoItem): (() =>
 
 export const getIndex = (context: IToyerContext, index?: number): number => index ?? (context.latestIndex += 1);
 
-export const getValue = <T extends unknown>(value: ValueType<T>): T => {
+export const getValue = <T>(value: ValueType<T>): T => {
   if (typeof value === 'object' && value !== null && 'get' in (value as object)) {
     return (value as { get(): T }).get();
   }
