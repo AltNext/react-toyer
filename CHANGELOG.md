@@ -1,5 +1,65 @@
 # react-toyer
 
+## 0.1.2
+
+### Patch Changes
+
+- [#92](https://github.com/AltNext/react-toyer/pull/92) [`fb7170f`](https://github.com/AltNext/react-toyer/commit/fb7170fac58ff22b8baa343a83b3adcfff42630b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency husky to v7.0.4
+
+- [#72](https://github.com/AltNext/react-toyer/pull/72) [`f2d631a`](https://github.com/AltNext/react-toyer/commit/f2d631afcd0ec8d49077669bd7dea52fcfa9b9f2) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @testing-library/react to v12.1.2
+
+- [#68](https://github.com/AltNext/react-toyer/pull/68) [`c4c31a5`](https://github.com/AltNext/react-toyer/commit/c4c31a579cc2759c13fed71b9b5287308a1ba057) Thanks [@roikoren755](https://github.com/roikoren755)! - chore(deps): bump deps
+
+- [#92](https://github.com/AltNext/react-toyer/pull/92) [`fb7170f`](https://github.com/AltNext/react-toyer/commit/fb7170fac58ff22b8baa343a83b3adcfff42630b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @types/react to v17.0.32
+
+- [#76](https://github.com/AltNext/react-toyer/pull/76) [`4a7d301`](https://github.com/AltNext/react-toyer/commit/4a7d301add226913e3d48cd3741d1a64b86ab8cf) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency lint-staged to v11.2.0
+
+- [#76](https://github.com/AltNext/react-toyer/pull/76) [`4a7d301`](https://github.com/AltNext/react-toyer/commit/4a7d301add226913e3d48cd3741d1a64b86ab8cf) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency typedoc to v0.22.5
+
+- [#79](https://github.com/AltNext/react-toyer/pull/79) [`70e216f`](https://github.com/AltNext/react-toyer/commit/70e216f3bb69f52bbc09c8fb2d28aea1eeaa1116) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v2.2.0
+
+- [#70](https://github.com/AltNext/react-toyer/pull/70) [`681298a`](https://github.com/AltNext/react-toyer/commit/681298acc6725dbde2fd98cc25a90ae5023760ab) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency eslint-config-altnext to v2.0.1
+
+- [#89](https://github.com/AltNext/react-toyer/pull/89) [`881524d`](https://github.com/AltNext/react-toyer/commit/881524d21a040c4788b8f873c793c3b9f038e6a5) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency typedoc to v0.22.6
+
+- [#92](https://github.com/AltNext/react-toyer/pull/92) [`fb7170f`](https://github.com/AltNext/react-toyer/commit/fb7170fac58ff22b8baa343a83b3adcfff42630b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency lint-staged to v11.2.4
+
+- [#80](https://github.com/AltNext/react-toyer/pull/80) [`4c47904`](https://github.com/AltNext/react-toyer/commit/4c4790435cd9b2a6671d1fa418f4d26f6ed9034f) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency cspell to v5.12.3
+
+- [#87](https://github.com/AltNext/react-toyer/pull/87) [`f671bf6`](https://github.com/AltNext/react-toyer/commit/f671bf6abef93df8e9b4a25edd09803bfc24e102) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @types/react to v17.0.30
+
+- [#68](https://github.com/AltNext/react-toyer/pull/68) [`c4c31a5`](https://github.com/AltNext/react-toyer/commit/c4c31a579cc2759c13fed71b9b5287308a1ba057) Thanks [@roikoren755](https://github.com/roikoren755)! - chore: add cspell
+
+- [#79](https://github.com/AltNext/react-toyer/pull/79) [`70e216f`](https://github.com/AltNext/react-toyer/commit/70e216f3bb69f52bbc09c8fb2d28aea1eeaa1116) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency typescript to v4.4.4
+
+- [#88](https://github.com/AltNext/react-toyer/pull/88) [`bf2245d`](https://github.com/AltNext/react-toyer/commit/bf2245d31b9df347d6f26422ef9ea6f587c7c8af) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency ts-jest to v27.0.7
+
+- [#76](https://github.com/AltNext/react-toyer/pull/76) [`4a7d301`](https://github.com/AltNext/react-toyer/commit/4a7d301add226913e3d48cd3741d1a64b86ab8cf) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency typedoc-plugin-markdown to v3.11.3
+
+- [#76](https://github.com/AltNext/react-toyer/pull/76) [`4a7d301`](https://github.com/AltNext/react-toyer/commit/4a7d301add226913e3d48cd3741d1a64b86ab8cf) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update streetsidesoftware/cspell-action action to v1.3.3
+
+- [#81](https://github.com/AltNext/react-toyer/pull/81) [`31c330d`](https://github.com/AltNext/react-toyer/commit/31c330d5274eced5c638da12b7c733ec278b1bdc) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update jest monorepo to v27.2.5
+
+- [#83](https://github.com/AltNext/react-toyer/pull/83) [`b0d7da4`](https://github.com/AltNext/react-toyer/commit/b0d7da4b84f4c368be7e40e133f3b4c93ddbf3ec) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @commitlint/cli to v13.2.1
+
+- [#85](https://github.com/AltNext/react-toyer/pull/85) [`ab2fe28`](https://github.com/AltNext/react-toyer/commit/ab2fe28a96aea067d92eabab06b6fd35b89962ea) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @types/react to v17.0.29
+
+- [#76](https://github.com/AltNext/react-toyer/pull/76) [`4a7d301`](https://github.com/AltNext/react-toyer/commit/4a7d301add226913e3d48cd3741d1a64b86ab8cf) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency cspell to v5.12.1
+
+- [#90](https://github.com/AltNext/react-toyer/pull/90) [`8aa4d67`](https://github.com/AltNext/react-toyer/commit/8aa4d677817ff18618616b724846d206c7a210c5) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency jest to v27.3.1
+
+- [#66](https://github.com/AltNext/react-toyer/pull/66) [`7593b34`](https://github.com/AltNext/react-toyer/commit/7593b341a31a8fa87bd8426e2118108574761be6) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency @types/react to v17.0.27
+
+- [#92](https://github.com/AltNext/react-toyer/pull/92) [`fb7170f`](https://github.com/AltNext/react-toyer/commit/fb7170fac58ff22b8baa343a83b3adcfff42630b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency ts-node to v10.4.0
+
+- [#84](https://github.com/AltNext/react-toyer/pull/84) [`8f4a172`](https://github.com/AltNext/react-toyer/commit/8f4a1723d05a64c9072fabe94c32da5faac6ca33) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency ts-node to v10.3.0
+
+- [#76](https://github.com/AltNext/react-toyer/pull/76) [`4a7d301`](https://github.com/AltNext/react-toyer/commit/4a7d301add226913e3d48cd3741d1a64b86ab8cf) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency jest-junit to v13
+
+- [#82](https://github.com/AltNext/react-toyer/pull/82) [`230e4ad`](https://github.com/AltNext/react-toyer/commit/230e4ad5eeaeb86dc144f19ded482378a1702778) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency lint-staged to v11.2.3
+
+- [#92](https://github.com/AltNext/react-toyer/pull/92) [`fb7170f`](https://github.com/AltNext/react-toyer/commit/fb7170fac58ff22b8baa343a83b3adcfff42630b) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update dependency typedoc to v0.22.7
+
 ## 0.1.1
 
 ### Patch Changes
