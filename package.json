@@ -43,7 +43,7 @@
     "@types/jest": "27.0.2",
     "@types/react": "17.0.32",
     "canvas": "2.8.0",
-    "cspell": "5.12.3",
+    "cspell": "5.21.2",
     "eslint-config-altnext": "2.2.0",
     "husky": "7.0.4",
     "jest": "27.3.1",
