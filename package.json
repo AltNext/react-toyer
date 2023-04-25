@@ -35,7 +35,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "0.4.1",
     "@changesets/cli": "2.17.0",
-    "@commitlint/cli": "13.2.1",
+    "@commitlint/cli": "17.0.0",
     "@commitlint/config-conventional": "13.2.0",
     "@jest/types": "27.2.5",
     "@testing-library/jest-dom": "5.14.1",
@@ -43,7 +43,7 @@
     "@types/jest": "27.0.2",
     "@types/react": "17.0.32",
     "canvas": "2.8.0",
-    "cspell": "5.12.3",
+    "cspell": "6.0.0",
     "eslint-config-altnext": "2.2.0",
     "husky": "7.0.4",
     "jest": "27.3.1",
